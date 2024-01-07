@@ -21,6 +21,22 @@ namespace MintaZH2
         {
             InitializeComponent();
             GetProducts();
+            DisplayProduct();
+        }
+
+        private void DisplayProduct()
+        {
+            var topPosition = 0;
+            var sortedProducts = from p in _products
+                                 orderby p.Title
+                                 select p;
+            foreach (var item in sortedProducts)
+            {
+                item.Left = 0;
+                item.Top = topPosition;
+                Controls.Add(item);
+                topPosition += item.Height;
+            }
         }
 
         private void GetProducts()
