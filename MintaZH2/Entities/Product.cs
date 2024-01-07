@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace MintaZH2.Entities
 {
-    abstract class  Product : Button
+    public abstract class  Product : Button
     {
         private string _title;
 
