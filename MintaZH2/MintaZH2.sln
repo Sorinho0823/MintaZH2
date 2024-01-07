@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintaZH2", "MintaZH2.csproj", "{2F9761D5-97DA-4286-8741-036EA3A1213A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F9761D5-97DA-4286-8741-036EA3A1213A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9761D5-97DA-4286-8741-036EA3A1213A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9761D5-97DA-4286-8741-036EA3A1213A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9761D5-97DA-4286-8741-036EA3A1213A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2E6A508-A41A-42A5-9BE7-896AA56A91E5}
+	EndGlobalSection
+EndGlobal
